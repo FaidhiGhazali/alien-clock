@@ -172,7 +172,6 @@ const setAlarm = () => {
   }
 };
 
-// Automatically format HH:mm
 const formatAlarmInput = () => {
   let digits = alarmInput.value.replace(/\D/g, '').slice(0, 4);
   if (digits.length >= 3) {
@@ -265,7 +264,6 @@ p {
   font-size: 1.2em;
 }
 
-/* Dialog Styles */
 .dialog-overlay {
   position: fixed;
   top: 0;
